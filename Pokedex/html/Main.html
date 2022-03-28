@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="Main.css">
+
+</head>
+
+<body>
+    <section class="container">
+
+        <section class="container1">
+
+            <section class="Movimientos">
+                <h2 class="moveTitle">Movimientos</h2>
+
+                <scroll-container>
+                    <li id="Move"></li>
+                </scroll-container>
+
+            </section>
+
+            <section class="Hero">
+                <input type="text" placeholder="Pikachu" id="pokeName" name="pokeName" class="buscar">
+                <div class="resultado">
+                    <img src="SignoEx.png" class="resultado2" alt="Pokemon" id="pokeImg">
+                </div>
+                <div id="pokeNamee" class="Name"></div>
+                <button class="btnBuscar" onclick="fetchPokemon()">Buscar</button>
+            </section>
+
+            <section class="des">
+                <h2 class="desT">Descripcion</h2>
+                <div class="desCont">
+                    <div class="des1">
+                        <div class="Descripcion">
+                            <div class="elemento">ID : 
+                                <p id="ID" ></p>
+                            </div>
+                        </div>
+
+                        <div class="Descripcion">
+                            <div class="elemento">Peso : 
+                                <p id="W"></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="des2">
+                        <div class="Descripcion">
+                            <div class="elemento">Altura : 
+                                <p id="H"></p>
+                            </div>
+                        </div>
+
+                        <div class="Descripcion">
+                            <div class="elemento">Experiencia Base : 
+                                <p id="E"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </section>
+
+        <section>
+            <div class="tiposC">
+                <h3>Tipo</h3>
+                <div id="tipos"></div>
+            </div>
+
+            <section>
+                <h2 class="statT">Estadisticas</h2>
+                <div id="statNa" class="stat"></div>
+                <div id="statNu" class="stat"></div>
+            </section>
+        </section>
+
+    </section>
+
+</body>
+<script src="Api.js"></script>
+
+</html>

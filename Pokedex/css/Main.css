@@ -1,0 +1,171 @@
+body {
+    background : url(fondo.jpg);
+    font-family: 'Pokemon Classic';
+}
+
+/*Main Section****************************************************/
+/*****************************************************************/
+/*****************************************************************/
+/*****************************************************************/
+
+.container {
+    height     : 5vh;
+    margin-left: 8%;
+}
+
+.container1 {
+    display       : flex;
+    flex-direction: row;
+    margin-top    : 4%;
+}
+
+.Hero {
+    display       : flex;
+    flex-direction: column;
+}
+
+.Name {
+    font-size      : 2.5rem;
+    display        : flex;
+    justify-content: center;
+    margin-right   : 20%;
+}
+
+.buscar,
+.btnBuscar {
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+    width          : 80%;
+    height         : 10%;
+    max-height     : 15%;
+    font-size      : 3rem;
+    border-radius  : 7%;
+    text-align: center;
+}
+
+.resultado {
+    display        : flex;
+    justify-content: center;
+    margin-right   : 20%;
+}
+
+.resultado2 {
+    display    : flex;
+    align-items: center;
+    width      : 25rem;
+    height     : 25rem;
+}
+
+/*Movimientos******************************************************/
+/******************************************************************/
+/******************************************************************/
+/******************************************************************/
+
+.moveTitle {
+    display        : flex;
+    justify-content: center;
+}
+
+.Movimientos {
+    margin-right  : 13%;
+    display       : flex;
+    flex-direction: column;
+    margin-bottom : 1%;
+}
+
+.ordMove {
+    display       : flex;
+    flex-direction: column;
+}
+
+/*Tipos************************************************************/
+/******************************************************************/
+/******************************************************************/
+/******************************************************************/
+
+.tiposC {
+    display       : flex;
+    text-align    : center;
+    flex-direction: column;
+    margin-right  : 7%;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+#tipos {
+    font-size: 1.1rem;
+}
+
+scroll-container {
+    display   : block;
+    margin    : 0 auto;
+    text-align: center;
+}
+
+scroll-container {
+    display        : block;
+    width          : 550px;
+    height         : 45vh;
+    overflow-y     : scroll;
+    scroll-behavior: smooth;
+    padding-right  : 10%;
+}
+
+scroll-page {
+    display        : flex;
+    flex-direction : column;
+    align-items    : center;
+    justify-content: center;
+    height         : 100%;
+    font-size      : 5em;
+}
+
+.statT{
+    display: flex;
+    text-align: center;
+    margin-top: 2%;
+    margin-left: 41%;
+}
+
+.stat {
+    display       : flex;
+    flex-direction: row;
+    gap           : 10%;
+    font-size     : 1.3rem;
+}
+
+.des {
+    display       : flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.desT {
+    display       : flex;
+    flex-direction: row;
+}
+
+.desCont {
+    display       : flex;
+    flex-direction: row;
+}
+
+.des1 .des2 {
+    display       : flex;
+    flex-direction: row;
+}
+.des1{
+    margin-right: 10%;
+    padding-right: 20%;
+}
+.elemento{
+    padding-bottom: 5rem;
+}
+.Descripcion{
+    display: flex;
+    flex-direction: row;
+    
+}
